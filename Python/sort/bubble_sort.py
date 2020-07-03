@@ -13,7 +13,7 @@ def bubble_sort(list):
 				# Since we've had to make a swap, this suggests more needs sorting
 			sorted = False
 
-	if sorted:
-		break
+		if sorted:
+			break
 
 	return list
